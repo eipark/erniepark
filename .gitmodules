@@ -1,0 +1,3 @@
+[submodule "public/xboard"]
+	path = public/xboard
+	url = https://github.com/eipark/xboard.git
