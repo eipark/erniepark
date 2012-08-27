@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 
+#hi
+
 get '/' do
  File.read(File.join('public', 'index.html'))
 #	redirect '/index.html'
