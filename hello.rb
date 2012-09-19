@@ -8,6 +8,10 @@ get '/' do
 #	redirect '/index.html'
 end
 
+get '/sing/KnockonWood.m4a' do
+ File.read(File.join('public', 'sing/KnockonWood.m4a'))
+end
+
 get '/sing' do
  File.read(File.join('public', 'sing/index.html'))
 end
