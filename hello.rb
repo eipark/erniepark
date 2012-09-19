@@ -8,6 +8,18 @@ get '/' do
 #	redirect '/index.html'
 end
 
+get '/sing' do
+ File.read(File.join('public', 'sing/index.html'))
+end
+
+get '/sing/' do
+ File.read(File.join('public', 'sing/index.html'))
+end
+
+get '/xboard/' do
+ File.read(File.join('public', 'xboard/index.html'))
+end
+
 get '/xboard/' do
  File.read(File.join('public', 'xboard/index.html'))
 end
